@@ -4,7 +4,7 @@ layout: post
 categories: systemsDesign
 ---
 
-![Swiss Alps](https://isaacwkm.github.io/isaacwkm.github.io/assets/images/epicSevenMachinationThumbnail.jpg)
+![Swiss Alps](https://isaacwkm.github.io/assets/images/epicSevenMachinationThumbnail.jpg)
 
 
 ## MathJax
