@@ -1,4 +1,3 @@
-
 ---
 title:  "A Look at Machinations for Game Systems"
 layout: post
