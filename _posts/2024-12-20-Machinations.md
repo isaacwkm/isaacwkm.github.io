@@ -11,9 +11,9 @@ categories: systemsDesign
 
 ## Machinations
 
-You can enable MathJax by setting `mathjax: true` on a page or globally in the `_config.yml`. Some examples:
+I stumbled across [Machinations.io](https://machinations.io/) recently while I was looking up ways to visualize game systems for systems designers. It's a neat tool.
 
-[Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula) relates the  complex exponential function to the trigonometric functions.
+In this post I'll be exploring how I used it to visualize a mechanic in a gacha game I enjoy playing every now and then, *Epic Seven*.
 
 $$ e^{i\theta}=\cos(\theta)+i\sin(\theta) $$
 
