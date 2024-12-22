@@ -4,7 +4,7 @@ layout: post
 categories: systemsDesign
 ---
 
-![Epic Seven Machination Diagram](https://isaacwkm.github.io/assets/images/epicSevenMachinationThumbnail.png)
+![Epic Seven Machination Diagram](https://isaacwkm.github.io/assets/images/2024-12-08-Machinations/epicSevenMachinationThumbnail.png)
 
 
 *Gacha / JRPG genres often employ a random stat distribution to player equipment as they enhance them. Diagrams help visualize how likely a player will achieve their gear-related goals in their playtime.*
@@ -17,42 +17,19 @@ In this post I'll be exploring how I used it to visualize a mechanic in a gacha 
 
 ## The Gear Enhancement Mechanic
 
+![Epic Seven and Genshin Impact example](https://isaacwkm.github.io/assets/images/2024-12-08-Machinations/epicSevenGenshinComparison.png)
+*Pictured: A common theme in equipment enhancement across gacha titles. Equipment usually have a single-most "desired stat" (highlighted in the small red box), alongside other less-desired stats.*
+
 Gacha / JRPG genres often employ a random stat distribution to player equipment as they enhance them. Diagrams help visualize how likely a player will achieve their gear-related goals in their playtime.
 
-## Code
+![Epic Seven pentalroll social media post](https://isaacwkm.github.io/assets/images/2024-12-08-Machinations/epicSevenPentaroll.png)
 
-Embed code by putting `{{ "{% highlight language " }}%}` `{{ "{% endhighlight " }}%}` blocks around it. Adding the parameter `linenos` will show source lines besides the code.
+## Try it yourself:
 
-{% highlight c %}
+Check out the embedded content below to check out the machination yourself!
 
-static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocator* requestAlloc)
-{
-    struct Admin* admin = Identity_check((struct Admin*) vAdmin);
-    int64_t enabled = admin->asyncEnabled;
-    Dict d = Dict_CONST(String_CONST("asyncEnabled"), Int_OBJ(enabled), NULL);
-    Admin_sendMessage(&d, txid, admin);
-}
-
-{% endhighlight %}
-
-## Gists
-
-With the `jekyll-gist` plugin, which is preinstalled on Github Pages, you can embed gists simply by using the `gist` command:
-
-<script src="https://gist.github.com/5555251.js?file=gist.md"></script>
-
-## Images
-
-Upload an image to the *assets* folder and embed it with `![title](/assets/name.jpg))`. Keep in mind that the path needs to be adjusted if Jekyll is run inside a subfolder.
-
-A wrapper `div` with the class `large` can be used to increase the width of an image or iframe.
-
-![Epic Seven and Genshin Impact example](https://isaacwkm.github.io/assets/images/epicSevenGenshinComparison.png)
-
-[Flower](https://unsplash.com/photos/iGrsa9rL11o) by Tj Holowaychuk
-
-## Embedded content
-
-You can also embed a lot of stuff, for example from YouTube, using the `embed.html` include.
+Use the zoom buttons on the top right of the window below.
 
 {% include embed.html url="https://my.machinations.io/d/epic-seven-pentaroll-simulation/89bd9ec8bcfa11efa81906fdf218a24f" %}
+
+If you want to make your own Machinations, check out their site. This machination was created with the free plan staying under 50 components.
