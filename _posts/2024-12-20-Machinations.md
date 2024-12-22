@@ -7,7 +7,9 @@ categories: systemsDesign
 ![Swiss Alps](https://isaacwkm.github.io/assets/images/epicSevenMachinationThumbnail.png)
 
 
-## MathJax
+*Gacha / JRPG genres often employ a random stat distribution to player equipment as they enhance them. Diagrams help visualize how likely a player will achieve their gear-related goals in their playtime.*
+
+## Machinations
 
 You can enable MathJax by setting `mathjax: true` on a page or globally in the `_config.yml`. Some examples:
 

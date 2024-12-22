@@ -1,3 +1,5 @@
+# Main Configurations
+
 title: "Isaac Kim's Website and Portfolio"
 author: "Isaac Kim"
 description: "Thanks for visiting my website."
@@ -6,6 +8,13 @@ lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
+# Define collections
+collections:
+  blog1:
+    output: true  # This will generate individual pages for the posts in this collection
+  blog2:
+    output: true  # This will generate individual pages for the posts in this collection
+    
 # Layout
 
 show_excerpts: true        # show article excerpts on the home page
