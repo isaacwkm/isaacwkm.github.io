@@ -23,7 +23,7 @@ minimal: false # use a dark header
 # Menu
 
 navigation: # accepts {file, title, url, icon, sidebaricon}
-  - { file: "portfolio.html", title: "Projects and Experience" }
+  - { file: "index.html", title: "Projects and Experience" }
   - { file: "resume.md", title: "Resume" }
   - { file: "devBlog.html", title: "DevBlog" }
   - { file: "README.md", title: "About me" }

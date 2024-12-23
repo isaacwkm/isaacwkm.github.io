@@ -1,10 +1,15 @@
 ---
 layout: default
-title: "Home"
+title: "DevBlog"
+permalink: /portfolio/
 ---
 
-{% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title="Projects and Experience" %}
-{% endif %}
+<h1>Portfolio</h1>
+<ul>
+  {% for post in site.devBlog.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
