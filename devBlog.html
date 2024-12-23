@@ -4,21 +4,19 @@ title: "DevBlog"
 permalink: /devBlog/
 ---
 
-
-<div id="archives">
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-
-    <h3 class="category-head">{{ category_name }}</h3>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
-    {% endfor %}
-  </div>
+{%- assign posts = paginator.posts | default: site.posts -%}
+{% for post in site.categories.DevBlog %}
+  <article>
+    {% include meta.html post=post preview=true %}
+    {{ post.excerpt }}
+    <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div>
+  </article>
 {% endfor %}
-</div>
+
+{% if paginator.total_pages > 1 %}
+  <footer>
+    {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}">« newer posts</a>{% else %}<span></span>{% endif %}
+    <span>page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}<a href="{{ paginator.next_page_path | relative_url }}">older posts »</a>{% else %}<span></span>{% endif %}
+  </footer>
+{% endif %}
