@@ -7,9 +7,9 @@ permalink: /devBlog/
 <h1>&emsp;&emsp;DevBlog</h1>
 <hr style="width: 80%; margin: 0px auto;">
 <ul>
-  {% for post in site.devBlog.posts %}
+  {% for post in site.devBlog %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
       <p>{{ post.excerpt }}</p>
     </li>
   {% endfor %}
