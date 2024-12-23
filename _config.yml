@@ -10,10 +10,8 @@ date_format: "%B %d, %Y"
 
 # Define collections
 collections:
-  devBlog:
-    output: true # This will generate individual pages for the posts in this collection
-    permalink: /devBlog/:title/
-
+  posts:
+    permalink: /:categories/:title/
     
 # Layout
 
