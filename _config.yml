@@ -12,7 +12,9 @@ date_format: "%B %d, %Y"
 collections:
   devBlog:
     output: true # This will generate individual pages for the posts in this collection
+    permalink: /devBlog/:title/
 
+    
 # Layout
 
 show_excerpts: true # show article excerpts on the home page
