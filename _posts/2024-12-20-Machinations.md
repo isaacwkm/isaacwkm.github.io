@@ -13,6 +13,8 @@ categories: systemsDesign
 
 I stumbled across [Machinations.io](https://machinations.io/) recently while I was looking up ways to visualize game systems for systems designers. It's a neat tool.
 
+![Epic Seven Machination Diagram](https://isaacwkm.github.io/assets/images/2024-12-08-Machinations/machinationEpicSeven.gif)
+
 In this post I'll be exploring how I used it to visualize a mechanic in a gacha game I enjoy playing, *Epic Seven*.
 
 ## The Gear Enhancement Mechanic
