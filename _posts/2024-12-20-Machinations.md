@@ -1,7 +1,7 @@
 ---
 title:  "A Look at Machinations for Game Systems"
-layout: devBlog
-categories: systemsDesign
+layout: post
+categories: DevBlog
 date: 2024-12-22
 ---
 
