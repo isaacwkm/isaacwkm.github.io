@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Home"
+---
+
+<h1>&emsp;&emsp;Projects and Experience</h1>
+<hr style="width: 80%; margin: 0px auto;">
+{% if site.show_excerpts %}
+  {% include home.html %}
+{% else %}
+  {% include archive.html title="Projects and Experience" %}
+{% endif %}
