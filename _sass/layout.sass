@@ -25,17 +25,20 @@ nav
   margin: .5em -1.2em
 
 nav a
-  margin: .5em 1.2em
   font-family: 'Rockwell', sans-serif
   font-size: 16px
+  margin: 0; /* Remove extra margin around links */
+  padding: 0.5em 1em; /* Adjust padding to control the box size */
+  display: inline-block; /* Ensure proper layout */
+  line-height: 1; /* Reset line height for consistent spacing */
 
 nav a.selected
-  background-color: #f0f0f0; /* Light gray background */
-  color: #333; /* Text color */
-  border-radius: 5px; /* Rounded corners */
-  padding: 0.5em 1em; /* Padding inside the box */
-  text-decoration: none; /* Remove underline */
-  display: inline-block; /* Ensure the box wraps correctly */
+  background-color: rgb(150, 150, 150);
+  color: #333;
+  border-radius: 5px;
+  padding: 0.5em 1em; 
+  text-decoration: none;
+  display: inline-block;
 
 nav a.selected:hover
-  background-color: #e0e0e0; /* Slightly darker gray on hover */
+  background-color: rgb(186, 186, 186);

@@ -26,7 +26,7 @@ navigation: # accepts {file, title, url, icon, sidebaricon}
   - { file: "index.html", title: "Projects and Experience" }
   - { file: "resume.md", title: "Resume" }
   - { file: "devBlog.html", title: "DevBlog" }
-  - { file: "README.md", title: "About me" }
+  - { file: "aboutMe.md", title: "About me" }
 
 external: # shows a footer with social links - for available icons see fontawesome.com/icons
   - { title: Mail, icon: envelope, url: "mailto:isaacwkm@gmail.com" }
