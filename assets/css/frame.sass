@@ -18,10 +18,10 @@ body > header, body > footer
   body > header, body > article, body > footer
     padding: 1.75em calc(22% - 6em)
 
-
-html
-  background: darken($dark, 4%)
-body > header, body > footer
-  background: $light
-body, body > header, body > footer
-  box-shadow: 0 0 0 1px lighten($dark, 8%)
+@media (min-width: 768px)
+  html
+    background: darken($dark, 4%)
+  body > header, body > footer
+    background: $light
+  body, body > header, body > footer
+    box-shadow: 0 0 0 1px lighten($dark, 8%)
