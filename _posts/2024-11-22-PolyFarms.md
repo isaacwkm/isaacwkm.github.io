@@ -1,5 +1,5 @@
 ---
-title:  "Poly Farming: &nbsp;Programming, &nbsp;Technical Art - <i>Nov 2025</i>"
+title:  "Poly Farms: &nbsp;Programming, &nbsp;Technical Art - <i>Nov 2025</i>"
 layout: post
 categories: Portfolio
 date: 2024-11-22
@@ -15,7 +15,7 @@ hidedate: true
 
 ![Gif Preview](https://isaacwkm.github.io/assets/images/2024-12-25-PolyFarmPost/gifPreview.gif)
 
-*Poly Farming was created as a group, as part of one of our university's (University of California: Santa Cruz) capstone projects. I coded the game systems and animations involving the day cycle, background props, and plant growth coupling with game logic.*
+*Poly Farms was created as a group, as part of one of our university's (University of California: Santa Cruz) capstone projects. I coded the game systems and animations involving the day cycle, background props, and plant growth coupling with game logic.*
 
 ## Features Demo
 
