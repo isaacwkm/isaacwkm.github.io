@@ -1,5 +1,5 @@
 ---
-title:  "Star Spectris: &nbsp;Game Design,&nbsp; Art, & Programming - <i>Spring 2024</i>"
+title:  "<i>Star Spectris</i>: &nbsp;Game Design,&nbsp; Technical Art, & Programming - <i>Spring 2024</i>"
 layout: post
 categories: Portfolio
 date: 2024-05-04
