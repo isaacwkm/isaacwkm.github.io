@@ -1,5 +1,5 @@
 ---
-title:  "Poly Farms: &nbsp;Programming, &nbsp;Technical Art - <i>Nov 2025</i>"
+title:  "<i>Poly Farms</i>: &nbsp;Programming, &nbsp;Technical Art - <i>Nov 2025</i>"
 layout: post
 categories: Portfolio
 date: 2024-11-22
