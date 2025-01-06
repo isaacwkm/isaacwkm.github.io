@@ -1,5 +1,5 @@
 ---
-title:  "Star Spectris: &nbsp;Level Design, &nbsp;Character and Environment Art - <i>Spring 2024</i>"
+title:  "Star Spectris: &nbsp;Game Design,&nbsp; Art, & Programming - <i>Spring 2024</i>"
 layout: post
 categories: Portfolio
 date: 2024-05-04
@@ -16,7 +16,7 @@ hidedate: true
 
 *The title sequence of Star Spectris made using Tween animation wtih a custom bitmap font. In-browser playable game link below.*
 
-## Playable Link
+## Playable Links
 
 Option 1 - Itch.io: [https://saxxiefone.itch.io/star-spectris](https://saxxiefone.itch.io/star-spectris) (in-browser)
 
