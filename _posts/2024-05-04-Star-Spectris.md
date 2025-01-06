@@ -6,43 +6,27 @@ date: 2024-05-04
 hidedate: true
 ---
 
-![Ghost-Man Thumbnail](https://isaacwkm.github.io/assets/images/2024-12-26-Ghost-Man/Thumbnail2HQ.png)
+![Star Spectris Thumbnail](https://isaacwkm.github.io/assets/images/2024-05-04-Spectris/screenshotTitle.png)
 
 
-*A Remake of Pacman using re-imagined characters and gameplay.*
-## *Roles in Project:* &nbsp;Level Designer, &nbsp;Art Lead
+*An arcade shooter with an initial inspiration of Tetris and Galaga.*
+## *Roles in Project:* &nbsp;Solo Developer
 
-![Gif Preview](https://isaacwkm.github.io/assets/images/2024-12-26-Ghost-Man/thumbnailGif.gif)
+![Gif Preview](https://isaacwkm.github.io/assets/images/2024-05-04-Spectris/gifPreviewSpectris.gif)
 
-*Poly Farming was created as a group, as part of one of our university's (University of California: Santa Cruz) capstone projects. I designed the level and led the art production of the characters and playing stage.*
+*The title sequence of Star Spectris made using Tween animation wtih a custom bitmap font. In-browser playable game link below.*
+
+## Playable Link
+
+Option 1: Itch.io - https://saxxiefone.itch.io/star-spectris (in-browser)
+Option 2: Github Pages playable link - https://isaacwkm.github.io/star-spectris (in browser)
 
 ## Shot Breakdowns
 
-{% include embed.html url="https://my.machinations.io/d/epic-seven-pentaroll-simulation/89bd9ec8bcfa11efa81906fdf218a24f" %}
 
-If you want to make your own Machinations, check out their site. I made this Machination with the free plan staying just under 50 components.
+## Gameplay Demo:
 
-![Epic Seven and Genshin Impact example](https://isaacwkm.github.io/assets/images/2024-12-08-Machinations/epicSevenGenshinComparison.png)
-*Pictured: A common theme in equipment enhancement across gacha titles. Equipment usually have a single-most "desired stat" (highlighted in the small red box), alongside other less-desired stats.*
-
-Gacha / JRPG genres often employ a random stat distribution to player equipment as they enhance them. Diagrams help visualize how likely a player will achieve their gear-related goals in their playtime.
-
-Gacha games drop a LOT of gear to the player. It's up to the player to decide what they want and sift through their gear to see if they have something worth keeping.
-
-Sometimes, you'll find an item that fits just the stat profile of what you're looking for. When that happens, you enhance it, which upgrades its level and incrases a random substat. This is an infamous source of randomness present in many gacha titles, and players often don't get their items to enhance the stats they want.
-
-![Epic Seven pentalroll social media post](https://isaacwkm.github.io/assets/images/2024-12-08-Machinations/epicSevenPentaroll.png)
-*A player posts on social media their achievement of finally achieving a "pentaroll" -- that is all 5 stat rolls all into the single, desired stat. Source: Reddit*
-
-As such, you can imagine how hard it would be to have multiple random rolls land on the same stat multiple times in a row, much like betting red on roulette 10 times in a row. 
-
-## Try it yourself:
-
-Check out the embedded content below to check out the machination yourself!
-
-Use the zoom buttons on the top right of the window below.
-
-If you want to make your own Machinations, check out their site. I made this Machination with the free plan staying just under 50 components.
+{% include embed.html url="https://www.youtube.com/embed/qTP4iT8r7SY?si=koFZL7EKHkHEEfx9" %}
 
 ## Conclusion
 
