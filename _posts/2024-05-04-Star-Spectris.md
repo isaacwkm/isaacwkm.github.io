@@ -6,7 +6,7 @@ date: 2024-05-04
 hidedate: true
 ---
 
-![Star Spectris Thumbnail](https://isaacwkm.github.io/assets/images/2024-05-04-Spectris/screenshotTitle.png)
+![Star Spectris Thumbnail](https://isaacwkm.github.io/assets/images/2024-05-04-Spectris/screenshotTip.png)
 
 
 *An arcade shooter with an initial inspiration of Tetris and Galaga.*
@@ -18,8 +18,9 @@ hidedate: true
 
 ## Playable Link
 
-Option 1: Itch.io - https://saxxiefone.itch.io/star-spectris (in-browser)
-Option 2: Github Pages playable link - https://isaacwkm.github.io/star-spectris (in browser)
+Option 1 - Itch.io: [https://saxxiefone.itch.io/star-spectris](https://saxxiefone.itch.io/star-spectris) (in-browser)
+
+Option 2 - Github Pages: [https://isaacwkm.github.io/star-spectris](https://isaacwkm.github.io/star-spectris) (in browser)
 
 ## Shot Breakdowns
 
