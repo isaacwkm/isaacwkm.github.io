@@ -6,57 +6,103 @@ date: 2025-01-04
 hidedate: true
 ---
 
-![The Flying Dutchman Thumbnail](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/Screenshot_343.png)
+Placed Top 7% at Global Game Jam (73rd / 1000+ entries)<br>
+*Unity (C#) | 4-person core team*
+
+<!-- Trailer Embed -->
+<!-- Replace with YouTube/Vimeo embed or link -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d2Q0EGJr9Hg?si=Nay1U3OA_oeAC7cV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+**Overview**  
+Flying Dutchman is a first-person exploration and mystery game where players investigate scattered islands, uncover clues, and unlock new areas through interconnected progression systems.
+
+---
+
+## My Role
+
+- Project Lead for a 4-person core team  
+- Coordinated with 12+ external collaborators (art, audio, etc.)  
+- Owned core gameplay systems and technical implementation  
+
+---
+
+## Key Contributions
+
+### Gameplay Systems
+- Designed and implemented physics-based interaction systems  
+- Built inventory system and interaction logics  
+- Developed core progression systems linking clue discovery to island traversal  
+
+### Technical Art / Visuals
+- Developed post-processing pipeline to enhance atmosphere and visual fidelity  
+- Tuned lighting and rendering settings to support the game’s tone  
+- *(See screenshots below for before/afters)*
+
+### Team Leadership
+- Facilitated communication between developers and external contributors  
+- Managed task flow and ensured timely integration of assets  
+- Maintained development velocity during jam constraints  
+
+---
+
+## Visual Development (Before/afters)
+
+<!-- Before / After Images -->
+![Before-After 1](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/ba_1.1.png)
+
+![Before-After 2](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/ba_1.2.png)
+
+![Before-After 3](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/ba_2.1.png)
+
+![Before-After 4](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/ba_2.2.png)
 
 
-*Placeholder writeup: the details below are sample portfolio copy and do not reflect final documented contributions.*
-## *Roles in Project:* &nbsp;Team Lead, &nbsp;Technical Art, &nbsp;Programming
+*Post-processing and technical art improvements applied during development.*
 
-![Build Screenshot](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/Screenshot_308.png)
+---
 
-## Project Overview
+## Gameplay Loop
 
-*The Flying Dutchman* is presented as a stylized action experience focused on readability, atmosphere, and responsive moment-to-moment gameplay. This placeholder version frames the project as a cross-disciplinary effort where I coordinated visual direction and gameplay implementation to keep production moving quickly.
+1. Explore islands and search for clues  
+2. Use discovered information to unlock new areas  
+3. Traverse between islands (new and previously explored)  
+4. Repeat with deeper layers of progression  
 
-## Placeholder Contributions
+---
 
-1. Defined a production roadmap and weekly milestone targets to keep scope realistic.
-2. Built gameplay-facing systems for player movement, combat timing, and encounter pacing.
-3. Created technical art workflows to align environment mood, lighting, and material consistency.
-4. Established a polish pass process for visual readability, feedback timing, and scene clarity.
+## Results
 
-## Process (Placeholder)
+- Ranked **73rd out of 1000+ entries** at Global Game Jam (~Top 7%)
 
-The project pipeline was structured around rapid iteration: prototype first, playtest early, then refine based on friction points. I used short development loops to tune feel before adding visual complexity, which helped avoid expensive late-stage redesign. Team communication centered on small check-ins and visible task ownership so blockers could be resolved quickly.
+<!-- Optional Proof Screenshot -->
+![Leaderboard Proof](LINK_TO_SCREENSHOT)
 
-## Shot Breakdowns
+<!-- Optional External Link -->
+[View Official Results](LINK_TO_RESULTS_PAGE)
 
-![Shot 1](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/Screenshot_234.png)
+---
 
-*Early gameplay framing and silhouette readability pass.*
+## Reflection *(optional but strong for portfolio)*
 
-![Shot 2](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/Screenshot_310.png)
+- What worked:
+  - [e.g., Strong visual identity through post-processing]
+  - [e.g., Flexible gameplay systems enabled fast iteration]
 
-*Mid-production composition and contrast tuning for gameplay clarity.*
+- Challenges:
+  - [e.g., Coordinating large number of external contributors]
+  - [e.g., Balancing scope within jam timeframe]
 
-![Shot 3](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/Screenshot_315.png)
+- What I would improve:
+  - [e.g., Expand progression depth]
+  - [e.g., Refactor systems for scalability]
 
-*Final-direction snapshot showing visual cohesion and feedback layering.*
+---
 
-## Before / After
+## Links
 
-![Before-After 1](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/Screenshot_207.png)
-
-*Placeholder note: blockout-to-polish environment progression.*
-
-![Before-After 2](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/Screenshot_311.png)
-
-*Placeholder note: improved shape language and landmark readability.*
-
-![Before-After 3](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/Screenshot_390.png)
-
-*Placeholder note: lighting and material pass for stronger mood control.*
-
-## Reflection (Placeholder)
-
-This temporary writeup emphasizes leadership, technical art, and gameplay integration as a cohesive production workflow. The final post can later replace each section with actual goals, tooling decisions, measurable outcomes, and verified credits.
+- [Playable Build](LINK)
+- [Source Code / GitHub](LINK)
+- [Additional Media](LINK)
