@@ -45,6 +45,35 @@ a:hover .icon
   overflow-x: auto
   overflow-y: hidden
 
+.image-gallery
+  display: flex
+  gap: 1rem
+  margin: 1rem 0
+  overflow-x: auto
+  overflow-y: hidden
+  padding: .25rem 0 1rem
+  scroll-snap-type: x mandatory
+  -webkit-overflow-scrolling: touch
+
+.image-gallery figure
+  flex: 0 0 85%
+  margin: 0
+  max-width: 760px
+  scroll-snap-align: start
+
+.image-gallery img
+  display: block
+  width: 100%
+  max-height: 520px
+  object-fit: contain
+
+.image-gallery figcaption
+  color: reduce(78)
+  font-size: .9em
+  line-height: 1.4
+  margin-top: .35rem
+  text-align: left
+
 .rouge-table
   &, th, td, tr, pre
     font-size: inherit
