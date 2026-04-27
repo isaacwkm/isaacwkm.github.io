@@ -1,9 +1,10 @@
 ---
-title:  "<i>Poly Farms</i>: &nbsp;Programming (Unity C# & Typscript) - <i>Nov 2025</i>"
+title:  "<i>Poly Farms</i>: &nbsp;Programming - <i>Nov 2025</i>"
 layout: post
 categories: Portfolio
 date: 2024-11-22
 hidedate: true
+archived: true
 ---
 
 ![PolyFarming Thumbnail](https://isaacwkm.github.io/assets/images/2024-12-25-PolyFarmPost/Thumbnail3.png)

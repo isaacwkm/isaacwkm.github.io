@@ -4,6 +4,7 @@ layout: post
 categories: Portfolio
 date: 2025-01-04
 hidedate: true
+featured: true
 ---
 
 ![Intro Art](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/img_gallery/lighthouse_night.png)

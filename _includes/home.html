@@ -1,10 +1,25 @@
 {%- assign posts = paginator.posts | default: site.posts -%}
-{% for post in site.categories.Portfolio %}
-  <article>
-    {% include meta.html post=post preview=true %}
-    {{ post.excerpt }}
-    <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div>
-  </article>
+{%- assign portfolio_posts = site.categories.Portfolio -%}
+{%- assign featured_posts = portfolio_posts | where: "featured", true -%}
+
+{% for post in featured_posts %}
+  {% unless post.archived %}
+    <article>
+      {% include meta.html post=post preview=true %}
+      {{ post.excerpt }}
+      <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div>
+    </article>
+  {% endunless %}
+{% endfor %}
+
+{% for post in portfolio_posts %}
+  {% unless post.featured or post.archived %}
+    <article>
+      {% include meta.html post=post preview=true %}
+      {{ post.excerpt }}
+      <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div>
+    </article>
+  {% endunless %}
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
