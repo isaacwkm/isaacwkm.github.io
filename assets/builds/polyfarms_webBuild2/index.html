@@ -107,6 +107,18 @@
         canvas.style.height = "600px";
       }
 
+      function resizeUnityPlayer() {
+        if (container.className != "unity-desktop") return;
+
+        var playerWidth = 960;
+        var playerHeight = 638;
+        var scale = Math.min(window.innerWidth / playerWidth, window.innerHeight / playerHeight);
+        container.style.transform = "translate(-50%, -50%) scale(" + scale + ")";
+      }
+
+      window.addEventListener("resize", resizeUnityPlayer);
+      resizeUnityPlayer();
+
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
