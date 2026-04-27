@@ -1,5 +1,5 @@
 ---
-title:  "<i>Poly Farms</i>: &nbsp;Programming, &nbsp;Technical Art - <i>Nov 2025</i>"
+title:  "<i>Poly Farms</i>: &nbsp;Programming (Unity C# & Typscript) - <i>Nov 2025</i>"
 layout: post
 categories: Portfolio
 date: 2024-11-22
@@ -11,7 +11,7 @@ hidedate: true
 
 *A Low-Poly Simulation Game of Growing Plants on a Small Farm.*
 
-## *Roles in Project:* Programmer, Animator
+## *Roles in Project:* Programmer (Unity C#, Typscript + ThreeJS)
 
 ![Gif Preview](https://isaacwkm.github.io/assets/images/2024-12-25-PolyFarmPost/gifPreview.gif)
 
@@ -23,26 +23,22 @@ Link to team project documentation: https://docs.google.com/document/d/146ZyMHAE
 
 Link to project Githubs:
 1. Unity Version: https://github.com/isaacwkm/Unity-Farming-Prototype
-2. Javascript Version: https://github.com/isaacwkm/ThreeJS-Farming-Prototype
+2. Typescript Version: https://github.com/isaacwkm/ThreeJS-Farming-Prototype
 
 Playable Links:
 1. Unity Version: https://isaacwkm.github.io/assets/builds/polyfarms_webBuild1/index.html
-2. Javascript Version: https://isaacwkm.github.io/ThreeJS-Farming-Prototype/ (in-browser)
+2. Typescript Version: https://isaacwkm.github.io/ThreeJS-Farming-Prototype/ (in-browser)
 
-## Playable Unity Build
+## Playable Unity Build (Desktop only)
 
 <div style="position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden;">
   <iframe
-    src="https://isaacwkm.github.io/assets/builds/polyfarms_webBuild1/index.html"
+    src="https://isaacwkm.github.io/assets/builds/polyfarms_webBuild2/index.html"
     title="Poly Farms Playable Unity Build"
     style="width: 100%; height: 100%; border: 0;"
     allowfullscreen>
   </iframe>
 </div>
-
-## Full Feature Demo
-
-{% include embed.html url="https://my.machinations.io/d/epic-seven-pentaroll-simulation/89bd9ec8bcfa11efa81906fdf218a24f" %}
 
 ## Reflection
 
