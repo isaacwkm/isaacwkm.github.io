@@ -53,7 +53,54 @@ a:hover .icon
   overflow-y: hidden
   padding: .25rem 0 1rem
   scroll-snap-type: x mandatory
+  scrollbar-width: none
   -webkit-overflow-scrolling: touch
+
+.image-gallery::-webkit-scrollbar
+  display: none
+
+.image-gallery-shell
+  position: relative
+
+.image-gallery-button
+  align-items: center
+  background: rgba($dark, .72)
+  border: 1px solid reduce(35)
+  border-radius: 50%
+  color: $light
+  cursor: pointer
+  display: flex
+  font: inherit
+  font-size: 1.25rem
+  height: 2.4rem
+  justify-content: center
+  line-height: 1
+  margin: 0
+  opacity: .88
+  padding: 0
+  position: absolute
+  top: calc(50% - 1.2rem)
+  transition: .2s background, .2s opacity, .2s transform
+  width: 2.4rem
+  z-index: 2
+
+.image-gallery-button:hover,
+.image-gallery-button:focus
+  background: rgba($dark, .92)
+  opacity: 1
+  outline: none
+  transform: scale(1.04)
+
+.image-gallery-button:disabled
+  cursor: default
+  opacity: .25
+  transform: none
+
+.image-gallery-button.previous
+  left: .5rem
+
+.image-gallery-button.next
+  right: .5rem
 
 .image-gallery figure
   flex: 0 0 85%

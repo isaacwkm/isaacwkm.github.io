@@ -6,7 +6,7 @@ date: 2025-01-04
 hidedate: true
 ---
 
-![Intro Art](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/lighthouse_night.png)
+![Intro Art](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/img_gallery/lighthouse_night.png)
 
 Placed Top 7% at Global Game Jam, Rising Tide 1 (73rd / 1000+ entries)<br>
 *Unity (C#) | 4-person core team*
@@ -74,39 +74,50 @@ Lookup tables (LUTs) helped dampen the harsh colors and higher-saturated colors.
 
 <div class="image-gallery">
   <figure>
-    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/shrimp_band.png" alt="Shrimp band scene">
-    <figcaption>Shrimp band encounter.</figcaption>
+    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/img_gallery/birds_sunset.png" alt="Birds at sunset">
+    <figcaption>Birds at sunset.</figcaption>
   </figure>
   <figure>
-    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/lighthouse_night.png" alt="Lighthouse at night">
-    <figcaption>Lighthouse scene at night.</figcaption>
+    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/img_gallery/drained_lake.png" alt="Drained lake">
+    <figcaption>Drained lake.</figcaption>
   </figure>
   <figure>
-    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/birds_sunset.png" alt="Birds at sunset">
-    <figcaption>Sunset island composition.</figcaption>
+    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/img_gallery/lighthouse_night.png" alt="Lighthouse at night">
+    <figcaption>Lighthouse at night.</figcaption>
   </figure>
   <figure>
-    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/opening_shot.png" alt="Opening shot">
-    <figcaption>Opening island shot.</figcaption>
+    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/img_gallery/NPC.png" alt="NPC scene">
+    <figcaption>NPC scene in the bar.</figcaption>
+  </figure>
+  <figure>
+    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/img_gallery/opening_shot.png" alt="Opening shot">
+    <figcaption>Opening shot.</figcaption>
+  </figure>
+  <figure>
+    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/img_gallery/pirate_sunset.png" alt="Pirate sunset">
+    <figcaption>Pirates at dusk.</figcaption>
+  </figure>
+  <figure>
+    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/img_gallery/puzzle_hint.png" alt="Puzzle hint">
+    <figcaption>Puzzle hint.</figcaption>
+  </figure>
+  <figure>
+    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/img_gallery/ship_in_the_air.png" alt="Ship in the air">
+    <figcaption>Ship out of reach.</figcaption>
+  </figure>
+  <figure>
+    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/img_gallery/shrimp_band.png" alt="Shrimp band">
+    <figcaption>Shrimp band.</figcaption>
+  </figure>
+  <figure>
+    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/img_gallery/townport_night.png" alt="Town port at night">
+    <figcaption>Townport at night.</figcaption>
+  </figure>
+  <figure>
+    <img src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/img_gallery/treasure_chests.png" alt="Treasure chests">
+    <figcaption>Treasure chests.</figcaption>
   </figure>
 </div>
-
-### Gallery Setup
-
-To add a horizontal image gallery in another post, paste this structure and swap the image paths:
-
-```html
-<div class="image-gallery">
-  <figure>
-    <img src="https://isaacwkm.github.io/assets/images/YOUR-FOLDER/image-1.png" alt="Short description of image 1">
-    <figcaption>Optional caption for image 1.</figcaption>
-  </figure>
-  <figure>
-    <img src="https://isaacwkm.github.io/assets/images/YOUR-FOLDER/image-2.png" alt="Short description of image 2">
-    <figcaption>Optional caption for image 2.</figcaption>
-  </figure>
-</div>
-```
 
 ---
 
@@ -124,28 +135,24 @@ To add a horizontal image gallery in another post, paste this structure and swap
 - Ranked **73rd out of 1000+ entries** at Global Game Jam (~Top 7%)
 
 <!-- Optional Proof Screenshot -->
-![Leaderboard Proof]()
+<p style="text-align: center;">
+  <img
+    src="https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/LeaderboardScreenshot.png"
+    alt="Leaderboard Proof"
+    style="max-height: 420px; width: auto;"
+  >
+</p>
 
 ---
 
-## Reflection *(optional but strong for portfolio)*
+## Reflection
 
-- What worked:
-  - [e.g., Strong visual identity through post-processing]
-  - [e.g., Flexible gameplay systems enabled fast iteration]
 
-- Challenges:
-  - [e.g., Coordinating large number of external contributors]
-  - [e.g., Balancing scope within jam timeframe]
-
-- What I would improve:
-  - [e.g., Expand progression depth]
-  - [e.g., Refactor systems for scalability]
 
 ---
 
 ## Links
 
-- [Playable Build](LINK)
-- [Source Code / GitHub](LINK)
-- [Additional Media](LINK)
+- [Playable Build](https://saxxiefone.itch.io/flydutch-playtest)
+- [Source Code / GitHub](https://github.com/Team-Lost-At-Sea/FlyDutchPublicSnapshot)
+- [Additional Media](https://youtu.be/HeCZL-tmy-g?si=QUoewQtzdqW-NJZ4)
