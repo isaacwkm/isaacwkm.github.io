@@ -8,6 +8,7 @@ hidedate: true
 
 ![Intro Art](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/img_gallery/lighthouse_night.png)
 
+
 Placed Top 7% at Global Game Jam, Rising Tide 1 (73rd / 1000+ entries)<br>
 *Unity (C#) | 4-person core team*
 
@@ -142,12 +143,6 @@ Lookup tables (LUTs) helped dampen the harsh colors and higher-saturated colors.
     style="max-height: 420px; width: auto;"
   >
 </p>
-
----
-
-## Reflection
-
-
 
 ---
 

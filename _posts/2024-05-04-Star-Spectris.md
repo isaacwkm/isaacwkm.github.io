@@ -31,5 +31,5 @@ Option 2 - Github Pages: [https://isaacwkm.github.io/star-spectris](https://isaa
 
 ## Conclusion
 
-Gacha games make a LOT of money. While their business models are controversial, gacha games know how to make a game system you can't stop coming back to. These games have engineered the essence of game systems design and I like to find inspiration in these systems that are carefully designed so. The system I covered in this post was a surface-level introduction to Machinations but systems get more interesting once you dive deeper.
+Working in Javascript with the Phaser framework was some of the most fun I had developing a game. Working without an engine and editor felt very raw and bootstrapped. It was a fun to experience this kind of game development on a small-scale project. I spent a lot of time debugging and getting familiar with the language, as well as getting the game feel to feel polished and fun. This is one of my favorite games I've created to this day.
 

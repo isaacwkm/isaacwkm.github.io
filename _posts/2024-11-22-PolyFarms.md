@@ -26,8 +26,19 @@ Link to project Githubs:
 2. Javascript Version: https://github.com/isaacwkm/ThreeJS-Farming-Prototype
 
 Playable Links:
-1. Unity Version:
+1. Unity Version: https://isaacwkm.github.io/assets/builds/polyfarms_webBuild1/index.html
 2. Javascript Version: https://isaacwkm.github.io/ThreeJS-Farming-Prototype/ (in-browser)
+
+## Playable Unity Build
+
+<div style="position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden;">
+  <iframe
+    src="https://isaacwkm.github.io/assets/builds/polyfarms_webBuild1/index.html"
+    title="Poly Farms Playable Unity Build"
+    style="width: 100%; height: 100%; border: 0;"
+    allowfullscreen>
+  </iframe>
+</div>
 
 ## Full Feature Demo
 
