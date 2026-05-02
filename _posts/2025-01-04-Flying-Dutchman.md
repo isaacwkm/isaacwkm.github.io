@@ -33,6 +33,26 @@ Flying Dutchman is a first-person exploration and mystery game where players inv
 
 ---
 
+## Shot Breakdowns (Before/afters)
+
+![Before-After 1](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/ba_1.1.png)
+
+![Before-After 2](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/ba_1.2.png)
+
+*Fischer's Lookout, a satellite island, floating above the larger desert prison island, Edelweiss.*
+
+The most helpful techniques while handling the technical art were making use of lookup tables, small amounts of posterization and pixel blurring (kuwahara filter), and shaders on background scenery.
+
+![Before-After 3](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/ba_2.1.png)
+
+![Before-After 4](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/ba_2.2.png)
+
+*Post-processing and technical art improvements applied during development.*
+
+Lookup tables (LUTs) helped dampen the harsh colors and higher-saturated colors. This allowed our art pipeline to have looser color use restrictions on our 3D modelers, as the LUTs would dampen any extreme color values to the closest acceptable color.
+
+---
+
 ## Key Contributions
 
 ### Gameplay Systems
@@ -43,32 +63,12 @@ Flying Dutchman is a first-person exploration and mystery game where players inv
 ### Technical Art / Visuals
 - Developed post-processing pipeline to enhance atmosphere and visual fidelity  
 - Tuned lighting and rendering settings to support the game’s tone  
-- *(See screenshots below for before/afters)*
+- *(See screenshots above for before/afters)*
 
 ### Team Leadership
 - Facilitated communication between developers and external contributors  
 - Managed task flow and ensured timely integration of assets  
 - Maintained development velocity with time constraints (global game jam, internal milestones, and periodic pitch-decks with instructors)  
-
----
-
-## Visual Development (Before/afters)
-
-![Before-After 1](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/ba_1.1.png)
-
-![Before-After 2](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/ba_1.2.png)
-
-*Fischer's Lookout, a satellite island, floating above the larger desert prison island, Edelweiss.*
-
-The most helpful techniques were making use of lookup tables, small amounts of posterization and pixel blurring (kuwahara filter), and shaders on background scenery.
-
-![Before-After 3](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/ba_2.1.png)
-
-![Before-After 4](https://isaacwkm.github.io/assets/images/2025-01-04-Dutchman/beforeafters/ba_2.2.png)
-
-*Post-processing and technical art improvements applied during development.*
-
-Lookup tables (LUTs) helped dampen the harsh colors and higher-saturated colors. This allowed our art pipeline to have looser color use restrictions on our 3D modelers, as the LUTs would dampen any extreme color values to the closest acceptable color.
 
 ---
 
