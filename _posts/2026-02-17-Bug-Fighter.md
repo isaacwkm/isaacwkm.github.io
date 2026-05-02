@@ -29,7 +29,7 @@ A Unity 2D fighting game prototype focused on online-ready simulation architectu
   </figure>
   <figure>
     <img src="https://isaacwkm.github.io/assets/images/2026-02-17-BugFight/Gallery/HerculesJumpingHeavyFollowUp.gif" alt="Hercules jumping heavy follow-up animation">
-    <figcaption>Hercules jumping heavy follow-up.</figcaption>
+    <figcaption>Hercules knockdown.</figcaption>
   </figure>
   <figure>
     <img src="https://isaacwkm.github.io/assets/images/2026-02-17-BugFight/Gallery/HerculesMedium.gif" alt="Hercules medium attack animation">
@@ -54,11 +54,10 @@ A Unity 2D fighting game prototype focused on online-ready simulation architectu
 I built the deterministic simulation, fighter state machine, data-driven attacks, hitbox combat, projectiles, throws, blocking, round flow, training tools, character select, HUD systems, and early rollback netcode. The project emphasizes clean separation between gameplay simulation and visual presentation so mechanics can be tested, replayed, and eventually synchronized online.
 
 - Created data-driven character and move configuration using ScriptableObjects.
-- Made use of game programming patterns for systems where appropriate, including observer, command, and component.
+- Made use of game programming patterns for systems where appropriate, including observer, command, and component. 
+- All game simulation is encapsulated under a single Gameloop file, and all entities in scene are simulated through an ECS-like system, owned by plain C# code.
 - Refactored code incrementally throughout development to apply patterns once systems grew larger.
 - Capable of and created debugging tools and harnesses to test iterations of new features.
-
-I am building the core gameplay systems for the project Bug Fighter, including the deterministic match simulation, fighter state machine, input handling, hitbox/hurtbox combat, projectiles, throws, blocking, hitstun, blockstun, round flow, health, timer logic, and character selection flow. The game currently supports multiple character configs, 2D animation-driven presentation, training-mode tools, input display, save states, recording playback, and early rollback netcode infrastructure.
 
 ![Ladybug Blocking Attack](https://isaacwkm.github.io/assets/images/2026-02-17-BugFight/ladyblock.png)
 
