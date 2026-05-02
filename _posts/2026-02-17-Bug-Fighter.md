@@ -62,3 +62,11 @@ I built the deterministic simulation, fighter state machine, data-driven attacks
 ![Ladybug Blocking Attack](https://isaacwkm.github.io/assets/images/2026-02-17-BugFight/ladyblock.png)
 
 A major focus of the project has been separating simulation from presentation so the game can support rollback networking and replay validation. I implemented net state capture/restore, input packet encoding, rollback resimulation, deterministic smoke tests, replay verification, and local/UDP network adapter work. I also built debugging tools for validating simulation consistency, inspecting combat interactions, and testing network behavior.
+
+## Links
+
+1.[ GitHub repository](https://github.com/Team-Lost-At-Sea/Bug-Fighter-Stix-Prototype-Snapshot)
+
+2.[ Playtest build: playable in-browser, with no online play](https://saxxiefone.itch.io/dirtcrawlers-week-8)
+
+3.[ Playtest build: Windows download, with online play on local network](https://saxxiefone.itch.io/dirtcrawlers-multiplayer-playtest)
