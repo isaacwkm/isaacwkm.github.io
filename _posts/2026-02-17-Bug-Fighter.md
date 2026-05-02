@@ -57,7 +57,7 @@ I built the deterministic simulation, fighter state machine, data-driven attacks
 - Made use of game programming patterns for systems where appropriate, including observer, command, and component. 
 - All game simulation is encapsulated under a single Gameloop file, and all entities in scene are simulated through an ECS-like system, owned by plain C# code.
 - Refactored code incrementally throughout development to apply patterns once systems grew larger.
-- Capable of and created debugging tools and harnesses to test iterations of new features.
+- Capable of creating and created debugging tools and harnesses to test iterations of new features.
 
 ![Ladybug Blocking Attack](https://isaacwkm.github.io/assets/images/2026-02-17-BugFight/ladyblock.png)
 
