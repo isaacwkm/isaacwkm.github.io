@@ -4,4 +4,4 @@ title: Resume
 
 ---
 
-[Link to my resume as a PDF](https://drive.google.com/file/d/1IRG-tq0MxjMkT9puf1J8wxaJT_DUp8ng/view?usp=sharing)
+## [<u>Link to my resume as a PDF</u>](https://drive.google.com/file/d/1rxb8YIkl9-cWYGMmYV-HcNyAAZO9pfYd/view?usp=sharing)
