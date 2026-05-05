@@ -3,6 +3,7 @@ title:  "A Look at Machinations for Game Systems"
 layout: post
 categories: DevBlog
 date: 2024-12-22
+published: false
 ---
 
 ![Epic Seven Machination Diagram](https://isaacwkm.github.io/assets/images/2024-12-08-Machinations/epicSevenMachinationThumbnail.png)
