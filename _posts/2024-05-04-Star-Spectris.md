@@ -22,8 +22,6 @@ Option 1 - Itch.io: [https://saxxiefone.itch.io/star-spectris](https://saxxiefon
 
 Option 2 - Github Pages: [https://isaacwkm.github.io/star-spectris](https://isaacwkm.github.io/star-spectris) (in browser)
 
-## Shot Breakdowns
-
 
 ## Gameplay Demo:
 
