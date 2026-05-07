@@ -1,5 +1,5 @@
 ---
-title: "<i>Bug Fighter</i>: &nbsp;Multiplayer Networking, &nbsp;Team Lead - <i>2026 to Current</i>"
+title: "<i>Bug Fighter</i>: &nbsp;Gameplay Programming - <i>2026 to Current</i>"
 layout: post
 categories: Portfolio
 date: 2026-02-17
