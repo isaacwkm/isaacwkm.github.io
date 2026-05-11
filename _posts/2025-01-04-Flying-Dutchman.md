@@ -29,7 +29,7 @@ Flying Dutchman is a first-person exploration and mystery game where players inv
 
 - Project Lead for a 4-person core team  
 - Coordinated with 12+ external collaborators (art, audio, etc.)  
-- Owned core gameplay systems and technical implementation  
+- Owned programming within core gameplay systems and technical implementation
 
 ---
 
@@ -123,12 +123,16 @@ Lookup tables (LUTs) helped dampen the harsh colors and higher-saturated colors.
 
 ---
 
-## Gameplay Loop
+## Postmortem
 
-1. Explore islands and search for clues  
-2. Use discovered information to unlock new areas  
-3. Traverse between islands (new and previously explored)  
-4. Repeat with deeper layers of progression  
+This 10-week gamejam was an intense experience where I got the opportunity to collaborate on a serious competition with a $100K prize pool.
+This experience drove me to learn quickly and apply new skills to make ends meet within the project. I'm very proud of the results of the game
+from a marketing standpoint: the goal was to appeal to judges based on a game trailer, rather than a gameplay demo. I found myself prioritizing
+aspects of the game that were marketable, such as its shaders, graphics, and highlight moments.
+
+However, I regret that this focus on the game trailer took away from my experience in honing the core gameplay and creating robust coding foundations.
+Working under a time-constraint, I was unable to give my attention to all areas of the game while also optimize for results in the competition.
+This project gave a me a lot of insight in production, project management, code/technical debt, and working within teams in Unity.
 
 ---
 
@@ -149,6 +153,5 @@ Lookup tables (LUTs) helped dampen the harsh colors and higher-saturated colors.
 
 ## Links
 
-- [Playable Build](https://saxxiefone.itch.io/flydutch-playtest)
-- [Source Code / GitHub](https://github.com/Team-Lost-At-Sea/FlyDutchPublicSnapshot)
+- [GitHub](https://github.com/Team-Lost-At-Sea/FlyDutchPublicSnapshot)
 - [Additional Media](https://youtu.be/HeCZL-tmy-g?si=QUoewQtzdqW-NJZ4)

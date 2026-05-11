@@ -22,6 +22,15 @@ Option 1 - Itch.io: [https://saxxiefone.itch.io/star-spectris](https://saxxiefon
 
 Option 2 - Github Pages: [https://isaacwkm.github.io/star-spectris](https://isaacwkm.github.io/star-spectris) (in browser)
 
+<div style="position: relative; width: 100%; max-width: 800px; aspect-ratio: 800 / 600; overflow: hidden; margin: 1.5em auto;">
+  <iframe
+    src="{{ '/assets/builds/star-spectris/index.html' | relative_url }}"
+    title="Star Spectris Playable Build"
+    style="width: 100%; height: 100%; border: 0;"
+    allowfullscreen>
+  </iframe>
+</div>
+
 
 ## Gameplay Demo:
 

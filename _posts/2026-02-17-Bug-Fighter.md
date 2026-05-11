@@ -67,6 +67,4 @@ A major focus of the project has been separating simulation from presentation so
 
 1.[ GitHub repository](https://github.com/Team-Lost-At-Sea/Bug-Fighter-Stix-Prototype-Snapshot)
 
-2.[ Playtest build: playable in-browser, with no online play](https://saxxiefone.itch.io/dirtcrawlers-week-8)
-
-3.[ Playtest build: Windows download, with online play on local network](https://saxxiefone.itch.io/dirtcrawlers-multiplayer-playtest)
+2.[ Playtest build: playable in-browser](https://saxxiefone.itch.io/dirtcrawlers-8)
