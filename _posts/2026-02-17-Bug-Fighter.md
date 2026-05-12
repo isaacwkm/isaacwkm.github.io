@@ -61,7 +61,13 @@ I built the deterministic simulation, fighter state machine, data-driven attacks
 
 ![Ladybug Blocking Attack](https://isaacwkm.github.io/assets/images/2026-02-17-BugFight/ladyblock.png)
 
-A major focus of the project has been separating simulation from presentation so the game can support rollback networking and replay validation. I implemented net state capture/restore, input packet encoding, rollback resimulation, deterministic smoke tests, replay verification, and local/UDP network adapter work. I also built debugging tools for validating simulation consistency, inspecting combat interactions, and testing network behavior.
+## Major Decisions
+
+Some major decisions I made during development were related to the major focus of separating simulation from presentation so the game can support rollback networking and replay validation. In order to support online netplay, the game had a requirement to be fully deterministic, serializable, and able to be rolled back to any point previously occured in the match, and also simulate future frames quickly. This meant the architecture had to represent and hold its data carefully.
+
+The first step I took was having all gameplay occur under a single GameLoop.cs file. All entities, their interactions, and behavior would be encapsulated within this file. Instead of object-oriented design where each actor on screen has its own code, the entities were given behavior defined in a native C# class, and simulated within the GameLoop. The game objects on screen served as visual renders of everything that occurred within GameLoop.
+
+Of course, entities and their interactions were further encapsulated into their own categories of mechanics and classes to prevent a mega-script of a main game loop. This ECS-inspired architecture allowed easy additions of new features and data to exist within the foundation and be added to serialization of the game state.
 
 ## Links
 
