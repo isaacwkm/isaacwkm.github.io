@@ -29,6 +29,7 @@ Option 2 - Github Pages: [https://isaacwkm.github.io/star-spectris](https://isaa
     src="{{ '/assets/builds/star-spectris/index.html' | relative_url }}"
     title="Star Spectris Playable Build"
     style="width: 100%; height: 100%; border: 0;"
+    scrolling="no"
     allowfullscreen>
   </iframe>
 </div>
