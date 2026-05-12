@@ -1,0 +1,108 @@
+{
+    "Title": "Star Spectris spawnRate Presets",
+    "Credits": "Created by Isaac Kim (iswkim@ucsc.edu)",
+    "spawnRatePresets": {
+        "1": {
+            "Blue": {
+                "key": 1,
+                "value": 6
+            },
+            "Green": {
+                "key": 2,
+                "value": 1.5
+            },
+            "Orange": {
+                "key": 3,
+                "value": 1.5
+            },
+            "BlueElite": {
+                "key": 4,
+                "value": 0
+            },
+            "GreenElite": {
+                "key": 5,
+                "value": 0
+            },
+            "OrangeElite": {
+                "key": 6,
+                "value": 0
+            },
+            "RandomElite": {
+                "key": 7,
+                "value": 0
+            },
+            "RandomNormal": {
+                "key": 8,
+                "value": 0
+            }
+        },
+        "2": {
+            "Blue": {
+                "key": 1,
+                "value": 6
+            },
+            "Green": {
+                "key": 2,
+                "value": 0
+            },
+            "Orange": {
+                "key": 3,
+                "value": 3
+            },
+            "BlueElite": {
+                "key": 4,
+                "value": 0
+            },
+            "GreenElite": {
+                "key": 5,
+                "value": 0
+            },
+            "OrangeElite": {
+                "key": 6,
+                "value": 0
+            },
+            "RandomElite": {
+                "key": 7,
+                "value": 0
+            },
+            "RandomNormal": {
+                "key": 8,
+                "value": 0
+            }
+        },
+        "3": {
+            "Blue": {
+                "key": 1,
+                "value": 3
+            },
+            "Green": {
+                "key": 2,
+                "value": 3
+            },
+            "Orange": {
+                "key": 3,
+                "value": 3
+            },
+            "BlueElite": {
+                "key": 4,
+                "value": 0
+            },
+            "GreenElite": {
+                "key": 5,
+                "value": 0
+            },
+            "OrangeElite": {
+                "key": 6,
+                "value": 0
+            },
+            "RandomElite": {
+                "key": 7,
+                "value": 0
+            },
+            "RandomNormal": {
+                "key": 8,
+                "value": 0
+            }
+        }
+    }
+}
